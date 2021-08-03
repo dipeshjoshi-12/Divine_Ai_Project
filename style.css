@@ -1,0 +1,104 @@
+
+.header{
+    letter-spacing: 2px;
+    padding: 5px;
+    background-color: #labc9c;
+    font-size: 20px; 
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: red;
+    animation-name: clorss;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes clorss{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.subheader{
+    text-align: centre;
+    padding: 10px;
+    font-size: 20px; 
+
+}
+
+table{
+    border: 1; 
+    width: 100%; 
+    height:60px; 
+    background-color:black ;
+}
+
+.about
+{
+    padding-bottom: 30px ;
+    height: 60px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+  .visit, .gen{
+      font-family: monospace; 
+      color:rgba(0, 0, 0, 0.5);
+    
+    }
+  #primary {
+    
+    width: 100%;
+    height: 100%;
+    background:white;
+    overflow: hidden;
+    border: 2px solid black;
+    background-image: url(images.jpg);
+    background-size: 100%;
+}
+
+ #secondry {
+    
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 244, 255, 0.7);
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    
+  }
+
+@media (max-width: 1400px)
+  {
+    #primary {
+    
+      width: 100%;
+      height: 100%;
+      background-image: url(image.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}
